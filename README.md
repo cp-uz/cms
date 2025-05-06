@@ -7,6 +7,12 @@ Homepage: <http://cms-dev.github.io/>
 [![codecov](https://codecov.io/gh/cms-dev/cms/branch/master/graph/badge.svg)](https://codecov.io/gh/cms-dev/cms)
 [![Join the chat at https://gitter.im/cms-dev/cms](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/cms-dev/cms?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+CP-UZ CMS 
+------------
+Step-by-step instruction:
+[Notion page](https://www.notion.so/CMS-Contest-management-system-1ebf0ae60bde803cbb2ecea3eb345d81?pvs=4)
+
+
 Introduction
 ------------
 

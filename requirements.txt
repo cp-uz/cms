@@ -9,11 +9,11 @@ netifaces>=0.10,<0.11  # https://bitbucket.org/al45tair/netifaces/src/
 # Set pycryptodomex version for Python 3.11
 pycryptodomex==3.19.0  # https://github.com/Legrandin/pycryptodome/blob/master/Changelog.rst
 psutil>=5.5,<5.6  # https://github.com/giampaolo/psutil/blob/master/HISTORY.rst
-requests>=2.22,<2.23  # https://pypi.python.org/pypi/requests
+requests==2.32.2  # https://pypi.python.org/pypi/requests
 # Slightly higher version for Python 3.11 support
-gevent==23.9.0.post1  # http://www.gevent.org/changelog.html
+gevent==25.4.2  # http://www.gevent.org/changelog.html
 # Limit greenlet version for compatibility with gevent
-greenlet==2.0.2
+greenlet==3.2.1
 werkzeug>=0.16,<0.17  # https://github.com/pallets/werkzeug/blob/master/CHANGES
 patool>=1.12,<1.13  # https://github.com/wummel/patool/blob/master/doc/changelog.txt
 bcrypt>=3.1,<3.2  # https://github.com/pyca/bcrypt/
@@ -22,6 +22,8 @@ chardet>=3.0,<3.1  # https://pypi.python.org/pypi/chardet
 babel==2.12.1  # http://babel.pocoo.org/en/latest/changelog.html
 pyxdg>=0.26,<0.27  # https://freedesktop.org/wiki/Software/pyxdg/
 Jinja2>=2.10,<2.11  # http://jinja.pocoo.org/docs/latest/changelog/
+backports.ssl_match_hostname==3.7.0.1
+
 
 # See https://github.com/pallets/markupsafe/issues/286 but breaking change in
 # MarkupSafe causes jinja to break
