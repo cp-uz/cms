@@ -325,7 +325,7 @@ class CompilationJob(Job):
         sr.set_compilation_outcome(self.compilation_success)
         sr.compilation_text = self.text
         sr.compilation_stdout = self.plus.get('stdout')
-        sr.compilation_stderr = self.plus.get('stderr')
+        sr.compilation_stderr = self.plus.get('stderr').encode("ascii", errors="ignore").decode()
         sr.compilation_time = self.plus.get('execution_time')
         sr.compilation_wall_clock_time = \
             self.plus.get('execution_wall_clock_time')
